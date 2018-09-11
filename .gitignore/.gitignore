@@ -1,0 +1,97 @@
+void setup(){
+  size(1000,1000);
+  background (255,255,122);
+}
+
+void draw(){
+  
+//face structure
+fill(255,205,148);
+noStroke();
+beginShape();
+  vertex(550,275);
+  vertex(450,275);
+  vertex(350,300);
+  vertex(350,550);
+  vertex(450,650);
+  vertex(550,650);
+  vertex(650, 550);
+  vertex(650, 300);
+endShape();
+
+//eyes 
+fill(255,255,255);
+ellipse(450,400,80,40);
+ellipse(560,400,80,40);
+
+//pupils
+fill(0);
+ellipse(450,400,30,30);
+ellipse(560,400,30,30);
+
+//eyebrows 
+fill(255,100,110);
+beginShape();
+  vertex(520,360);
+  vertex(560,362);
+  vertex(590,360);
+  vertex(620,350);
+ endShape();
+ 
+ beginShape();
+  vertex(430,360);
+  vertex(420,362);
+  vertex(500,360);
+  vertex(400,350);
+endShape();
+
+//ears 
+
+fill(140,231,170);
+beginShape();
+ vertex(650,350);
+ vertex(650,450);
+ vertex(680,450);
+ vertex(680,350);
+endShape();
+
+fill(124,23,333);
+beginShape();
+ vertex(350,350);
+ vertex(350,450);
+ vertex(320,450);
+ vertex(320,350);
+endShape();
+
+
+//nose
+fill(200,11,113);
+beginShape();
+  vertex(480,450);
+  vertex(480,480);
+  vertex(507,500);
+  vertex(507,400);
+endShape();
+
+//mouth 
+fill(255,0,255);
+beginShape();
+  vertex(500,590);
+  vertex(560,550);
+  vertex(440,550);
+endShape();
+
+//hair 
+fill(0);
+beginShape();
+  vertex(350,300);
+  vertex(450,275);
+  vertex(550,275);
+  vertex(650,300);
+  vertex(650,165);
+  vertex(600,170);
+  vertex(550,175);
+  vertex(450,200);
+  vertex(350,240);
+endShape();
+}
