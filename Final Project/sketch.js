@@ -26,7 +26,7 @@ function setup(){
 
 	createCanvas(800,900);
 
-	apikey = "5376c43d56d05e57c5c4ffe478b2be44539a605d533e4ac06548d98160658447";
+	apikey = "f027065f03e0f85727b5565d1a795309b3389ce798f75feb015f7a4554b9b8f2";
 	baseUrl = "https://allsportsapi.com/api/football/?&met=Topscorers&leagueId=";
 	baseUrlL = "https://allsportsapi.com/api/football/?&met=Standings&leagueId="; 
 	baseUrlT = "https://allsportsapi.com/api/football/?&met=Players&playerId=";
